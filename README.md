@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://Nadyaabc.github.io/rsschool-cv/cv
+https://Nadyaabc.github.io/rsschool-cv/
