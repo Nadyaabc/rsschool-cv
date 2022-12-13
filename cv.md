@@ -1,8 +1,11 @@
   Personal Information  
 Name: Nadya  
+Personal Information  
 
 Surname: Zhoglo  
 
+Name: Nadya  
+Surname: Zhoglo  
 Nationality: Belarusian  
 
 Phone number: +375 29 551-87-28 (mobile)  
@@ -33,6 +36,7 @@ Qualification: Information Technologies Engineer
 
 Special skills:  
 
+Special skill:  
 Native Belarusian  
 
 Native Russian  
@@ -66,3 +70,4 @@ Fluent English
 		}  
 
   }
+	}
