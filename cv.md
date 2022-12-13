@@ -28,7 +28,7 @@ Native Russian
 Fluent English  
 
 
-// Sort of the structure in alphabetical order  
+// Sort of the structure called <b>list</b> in alphabetical order  
 
 	for (int i = 0; i < n + 1; i++)  
 	{  
