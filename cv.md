@@ -49,3 +49,7 @@ There is a sentence with words and numbers. The sentence splitted to the array o
 - Belarusian State University of Informatics and Radioelectronics (BSUIR)
   (2022-2026) Automated information processing and control systems
 
+### Languages
+* English - *C1*
+* Russian - *Native Speaker*
+* Belarusian - *Native Speaker* 
