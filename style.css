@@ -1,4 +1,56 @@
 @font-face {
-  font-family: Roboto;
-  src: url("assets/fonts/Roboto.ttf");
+  font-family: "Arsenal_SC";
+  src: url("assets/fonts/Arsenal_SC/ArsenalSC-Regular.ttf");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("assets/fonts/Manrope/static/Manrope-Regular.ttf");
+  font-weight: 200;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0; padding: 0;
+}
+footer{
+  background-color: aquamarine;
+}
+header{
+  background-color: aquamarine;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Arsenal_SC";
+}
+.plain-text {
+  font-family: "Manrope"; 
+  font-size: medium;
+  font-weight: 100;
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0 20px;
+  line-height: 50px;
+  transition: 0.3s;
+}
+.nav-item {
+  font-family: "Manrope";  
+}
+.nav-link {
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+html {
+  scroll-behavior: smooth;
 }
