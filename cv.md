@@ -6,7 +6,7 @@
 - **Telegram** : @nadya_a_a_a
 - **e-mail** :  nadyash295923@gmail.com
 - **GitHub** : [Nadyaabc](https://github.com/Nadyaabc)
-- **LinkedIn** : [Nadzeya Zhohla](https://www.linkedin.com/in/%D0%BD%D0%B0%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0-%D0%B6%D0%BE%D0%B3%D0%BB%D0%BE-ba4874271/)
+- **LinkedIn** : [Nadzeya Zhohla](https://by.linkedin.com/in/nadzeya-zhohla-ba4874271)
 
 ### Summary
 I am currently a second year student at Belarusian State University of Informatics and Radioelectronics.
