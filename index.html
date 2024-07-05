@@ -15,7 +15,7 @@
                   <li class="nav-item"><a href="#contactInfo" class="nav-link">&nbsp&nbspContact Info&nbsp&nbsp</a></li>
                   <li class="nav-item"><a href="#summary" class="nav-link">&nbsp&nbspSummary&nbsp&nbsp</a></li>
                   <li class="nav-item"><a href="#skills" class="nav-link">&nbsp&nbspSkills&nbsp&nbsp</a></li>
-                  <li class="nav-item"><a href="#codeExample" class="nav-link">&nbsp&nbspCode exapmle&nbsp&nbsp</a></li>
+                  <li class="nav-item"><a href="#codeExample" class="nav-link">&nbsp&nbspCode example&nbsp&nbsp</a></li>
                   <li class="nav-item"><a href="#education" class="nav-link">&nbsp&nbspEducation&nbsp&nbsp</a></li>
                   <li class="nav-item"><a href="#languages" class="nav-link">&nbsp&nbspLanguages&nbsp&nbsp</a></li>
                 </ul>
@@ -24,11 +24,11 @@
     </header>
     <main class="main">
         <div class="container">
-            <img class="round" src="assets/img/profilepicture.jpg" alt="profile picture" width="200" border-radius=50%>
+            <img class="round" src="assets/img/profilepicture.jpeg" alt="profile picture" width="200" border-radius=50%>
         </div>
         <div class="container">
             <section class="section" id="contactInfo">
-                <h2>Contact Info<h2>
+                <h2>Contact Info</h2>
                     <p class="plain-text"><b>Location</b> : Minsk, Belarus</p>
                     <p class="plain-text"><b>Telegram</b> : @nadya_a_a_a</p>
                     <p class="plain-text"><b>e-mail</b> : nadyash295923@gmail.com</p>
@@ -36,27 +36,57 @@
                     <p class="plain-text"><b>LinkedIn</b> : <a href="https://by.linkedin.com/in/nadzeya-zhohla-ba4874271"> Nadzeya Zhohla</a></p>
             </section>
             <section class="section" id="summary">
-                <h2>Summary<h2>
-                    <p class="plain-text">I am currently a second year student at Belarusian State University of Informatics and Radioelectronics.
+                <h2>Summary</h2>
+                    <p class="plain-text">I am currently a third year student at Belarusian State University of Informatics and Radioelectronics.
                         My goal is to become a software developer.
                         I am interested in Java and Backend development in general.</p>
             </section>
             <section class="section" id="Skills">
-                <h2>Skills<h2>
-
-
+                <h2>Skills</h2>
+                <b>
+                    <ul>
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>Git</li>
+                        <li>MySQL</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </b>
             </section>
             <section class="section" id="codeExample">
-                <h2>Code Example<h2>
-
+                <h2>Code Example</h2>
+                    <p class="plain-text"><b>Task: </b>There is a sentence with words and numbers. The sentence splitted to the array of Strings which is called WORDS. Complete the code, parse integers, calculate the sum of numbers in the WORDS, also join strings with space delimiter</p>
+                    <pre><code>
+                        public static void main(String[] args) {
+                            Iterator<String> words = WORDS.iterator();
+                            int sum = 0;
+                            String justWords = "";
+                            while (words.hasNext()) {
+                                String next = words.next();
+                                try {
+                                    int number = Integer.parseInt(next);
+                                    sum += number;
+                                }
+                                catch (NumberFormatException e) {
+                                    justWords += " " + next;
+                                }
+                            }
+                            System.out.println("Sum is " + sum);
+                            System.out.println("Just words:" + justWords);
+                        }</code></pre>
             </section>
             <section class="section" id="education">
-                <h2>Education<h2>
-
+                <h2>Education</h2>
+                <p class="education">2020-2026 Belarusian State University of Informatics and Radioelectronics (BSUIR)</p>
+                <pre class="plain-text">            Faculty of Information Technologies and Control</pre>
             </section>
             <section class="section" id="languages">
-                <h2>Languages<h2>
-
+                <h2>Languages</h2>
+                <p><b>English</b> : C1 (Advanced)</p>
+                <p><b>German</b> : A1 (Beginner)</p>
+                <p><b>Russian</b> : Native speaker</p>
+                <p><b>Belarusian</b> : Native speaker</p>
             </section>
         </div>
     </main>

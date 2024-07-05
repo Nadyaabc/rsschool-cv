@@ -9,7 +9,7 @@
 - **LinkedIn** : [Nadzeya Zhohla](https://by.linkedin.com/in/nadzeya-zhohla-ba4874271)
 
 ### Summary
-I am currently a second year student at Belarusian State University of Informatics and Radioelectronics.
+I am currently a third year student at Belarusian State University of Informatics and Radioelectronics.
 My goal is to become a software developer.
 I am interested in Java and Back-End development
 
@@ -30,18 +30,13 @@ There is a sentence with words and numbers. The sentence splitted to the array o
         String justWords = "";
         while (words.hasNext()) {
             String next = words.next();
-
-            // todo: complete it
-            try
-            {
+            try {
                 int number = Integer.parseInt(next);
                 sum += number;
             }
-            catch (NumberFormatException e)
-            {
+            catch (NumberFormatException e) {
                 justWords += " " + next;
             }
-
         }
         System.out.println("Sum is " + sum);
         System.out.println("Just words:" + justWords);

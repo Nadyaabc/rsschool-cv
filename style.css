@@ -27,8 +27,8 @@ header{
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  font-family: "Arsenal_SC";
-  border: red;
+  font-size: 18px;
+  font-family: "Arsenal_SC"; 
 }
 .plain-text {
   font-family: "Manrope"; 
@@ -57,4 +57,11 @@ html {
 }
 .round {
   border-radius: 50%;
+  border: aquamarine 10px solid;
+}
+.education{
+  font-size: 20px;
+}
+code{
+  font-size: 75%;
 }
