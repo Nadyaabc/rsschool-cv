@@ -28,6 +28,7 @@ header{
   max-width: 1440px;
   margin: 0 auto;
   font-family: "Arsenal_SC";
+  border: red;
 }
 .plain-text {
   font-family: "Manrope"; 
@@ -53,4 +54,7 @@ header{
 }
 html {
   scroll-behavior: smooth;
+}
+.round {
+  border-radius: 50%;
 }
