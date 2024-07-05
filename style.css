@@ -58,6 +58,7 @@ html {
 .round {
   border-radius: 50%;
   border: aquamarine 10px solid;
+  border-radius: 50%
 }
 .education{
   font-size: 20px;
