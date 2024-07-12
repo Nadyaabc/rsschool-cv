@@ -1,9 +1,9 @@
-<!---->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>cv</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/img/favicon.ico">
 </head>
@@ -19,43 +19,45 @@
                   <li class="nav-item"><a href="#codeExample" class="nav-link">&nbsp;&nbsp;Code example &nbsp;&nbsp; </a></li>
                   <li class="nav-item"><a href="#education" class="nav-link">&nbsp;&nbsp;Education &nbsp;&nbsp; </a></li>
                   <li class="nav-item"><a href="#languages" class="nav-link">&nbsp;&nbsp;Languages &nbsp;&nbsp; </a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">&nbsp;&nbsp;Projects &nbsp;&nbsp; </a></li>
                 </ul>
-              </nav>
-       </div>
+            </nav>
+        </div>
     </header>
 
     <main class="main">
+        <div class="container">
         <section>
             <div class="container">
-                <img class="round" src="assets/img/profilepicture.jpeg" alt="profile picture" width="200">
-                <div class="container">
-                    <div id="contactInfo">
-                        <h2>Contact Info</h2>
-                            <p class="plain-text"><b>Location</b> : Minsk, Belarus</p>
-                            <p class="plain-text"><b>Telegram</b> : @nadya_a_a_a</p>
-                            <p class="plain-text"><b>e-mail</b> : nadyash295923@gmail.com</p>
-                            <p class="plain-text"><b>GitHub</b> : <a href="https://github.com/Nadyaabc" class="link"> Nadyaabc</a></p>
-                            <p class="plain-text"><b>LinkedIn</b> : <a href="https://by.linkedin.com/in/nadzeya-zhohla-ba4874271" class="link"> Nadzeya Zhohla</a></p>
-                    </div>
-                    <div id="languages">
-                        <h2>Languages</h2>
-                        <p><b>English</b> : C1 (Advanced)</p>
-                        <p><b>German</b> : A1 (Beginner)</p>
-                        <p><b>Russian</b> : Native speaker</p>
-                        <p><b>Belarusian</b> : Native speaker</p>
-                    </div>
-                    <div id="education">
-                        <h2>Education</h2>
-                        <pre><b>
+                <img class="round" src="assets/img/profilepicture.jpeg" alt="profile picture">
+                <div class="container" id="contactInfo">
+                    <h2>Contact Info</h2>
+                    <ul class="plain-text">
+                        <li class="plain-text"><b>Location:</b> Minsk, Belarus</li>
+                        <li class="plain-text"><b>Telegram:</b> @nadya_a_a_a</li>
+                        <li class="plain-text"><b>E-mail:</b> nadyash295923@gmail.com</li>
+                        <li class="plain-text"><b>GitHub:</b> <a href="https://github.com/Nadyaabc" class="link">Nadyaabc</a></li>
+                        <li class="plain-text"><b>LinkedIn:</b> <a href="https://by.linkedin.com/in/nadzeya-zhohla-ba4874271" class="link">Nadzeya Zhohla</a></li>
+                    </ul>
+                </div>
+                <div class="container" id="languages">
+                    <h2>Languages</h2>
+                    <p><b>English</b> : C1 (Advanced)</p>
+                    <p><b>German</b> : A1 (Beginner)</p>
+                    <p><b>Russian</b> : Native speaker</p>
+                    <p><b>Belarusian</b> : Native speaker</p>
+                </div>
+                <div class="container" id="education">
+                    <h2>Education</h2>
+                    <pre><b>
 Belarusian State University
 of Informatics 
 and Radioelectronics
-(2020-2026)</b></pre>
-                        <pre class="plain-text">
+(2022-2026)</b></pre>
+                    <pre class="plain-text">
 Faculty of 
 Information Technologies
 and Control</pre>
-                    </div>
                 </div>
             </div>
         </section>
@@ -63,26 +65,41 @@ and Control</pre>
             <div class="name" id="name">
                 <h1>NADZEYA ZHOHLA</h1>
             </div>
-        <div class="container" id="summary">
-            <h2>Summary</h2>
-            I am currently a third year student at Belarusian State University of Informatics and Radioelectronics.
+            <div class="container" id="summary">
+                <h2>Summary</h2>
+                I am currently a third year student at Belarusian State University of Informatics and Radioelectronics.
                 My goal is to become a software developer.
-                    I am interested in Java and Backend development in general.
+                I am interested in Java and Backend development in general.
+            </div>
         </div>
-         <div class="container" id="skills">
+        <div class="container" id="skills">
             <h2>Skills</h2>
             <ul class="skills-list">
-                <li><b>Java</b></li>
-                <li><b>C++</b></li>
-                <li><b>Git</b></li>
-                <li><b>MySQL</b></li>
-                <li><b>HTML</b></li>
-                <li><b>CSS</b></li>
-            </ul></div>
+                <li>Java</li>
+                <li>C++</li>
+                <li>SQL</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+            </ul>
+        </div>
+        <div class="container" id="projects">
+            <h2>Projects</h2>
+            <ul class="project-list">
+                <li>
+                    <h3>Check Runner</h3>
+                    <p>This is a Java program that functions as a check runner. It takes command-line arguments, processes them, and generates a check based on the input. The check contains a list of products, their amount and price, and, if a buyer has a discount card, info about the discount.</p>
+                    <a href="https://github.com/Nadyaabc/check.git" class="link">GitHub Repository</a>
+                </li>
+                <li>
+                    <h3>CV</h3>
+                    <a href="https://nadyaabc.github.io/rsschool-cv/" class="link">Link</a>
+                </li>
+            </ul>
         </div>
         <div class="container" id="codeExample">
             <h2>Code Example</h2>
-                    <p class="plain-text"><b>Task: </b>There is a sentence with words and numbers. The sentence splitted to the array of Strings which is called WORDS. Complete the code, parse integers, calculate the sum of numbers in the WORDS, also join strings with space delimiter</p>
+            <p class="plain-text"><b>Task: </b>There is a sentence with words and numbers. The sentence splitted to the array of Strings which is called WORDS. Complete the code, parse integers, calculate the sum of numbers in the WORDS, also join strings with space delimiter</p>
                     <div class="container" id="mycode"><pre><code>
                         public static void main(String[] args) {
                             Iterator &#60;String&#62; words = WORDS.iterator();
@@ -101,16 +118,17 @@ and Control</pre>
                             System.out.println("Sum is " + sum);
                             System.out.println("Just words:" + justWords);
                         }</code></pre>
-                    </div>
+                    </div> 
+        </div>
+        </div>
         </div>
     </main>
+
     <footer class="footer">
         <div class="container footer-container">
           <div>© 2024 <a href="https://github.com/Nadyaabc" class="link">Nadyaabc</a></div>
           <a href="https://rs.school/courses/javascript-ru" class="rss"></a>
         </div>
       </footer>
-    
-
 </body>
 </html>
